@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">UserWis</string>
+    <string name="et_password">Password</string>
 </resources>
