@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
     }
     private boolean checkCredentials(String username, String password )
     {
-        if(username.equals("admin") && password.equals("admin"))
+        if(username.equals("naily") && password.equals("naily"))
             return true ;
         else
             return false ;

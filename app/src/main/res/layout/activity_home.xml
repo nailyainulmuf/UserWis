@@ -22,35 +22,34 @@
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="201dp"
-        android:layout_height="115dp"
+        android:layout_width="214dp"
+        android:layout_height="123dp"
         android:layout_below="@+id/txv_greeting"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/logo2"
         android:layout_marginBottom="50dp"
-        />
+        android:src="@drawable/logo2" />
 
 
     <TextView
         android:id="@+id/txv_greeting"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome "
+        android:layout_alignStart="@+id/txtexp"
         android:layout_below="@+id/txtexp"
+        android:text="Welcome "
         android:textColor="@color/white"
-        android:textSize="30dp" />
+        android:textSize="30dp"
+        android:layout_alignLeft="@+id/txtexp" />
 
     <TextView
         android:id="@+id/username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30dp"
+        android:layout_below="@+id/txtexp"
         android:layout_toEndOf="@+id/txv_greeting"
-        android:layout_toRightOf="@+id/txv_greeting"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentTop="true"
-        android:layout_below="@+id/txv_greeting"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:layout_toRightOf="@+id/txv_greeting" />
 
     <Button
         android:id="@+id/btn_wisata"
@@ -67,7 +66,7 @@
         android:layout_height="115dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="214dp"
+        android:layout_marginBottom="204dp"
         android:background="@drawable/home" />
 
     <Button
@@ -76,7 +75,7 @@
         android:layout_height="115dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="121dp"
+        android:layout_marginBottom="105dp"
         android:background="@drawable/gal" />
 
 
