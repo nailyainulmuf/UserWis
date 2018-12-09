@@ -37,6 +37,9 @@ public class Galeri {
     public void setTgl ( String tgl ) {
         this . tgl = tgl ;
     }
+    public String getPhotoUrl () {
+        return photoUrl ;
+    }
     public void setPhotoUrl ( String photoUrl ) {
         this . photoUrl = photoUrl ;
     }
