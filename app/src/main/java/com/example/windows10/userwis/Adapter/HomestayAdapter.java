@@ -73,7 +73,7 @@ public class HomestayAdapter extends RecyclerView. Adapter < HomestayAdapter.Hom
         TextView tvNama , tvHarga ;
         public HomestayViewHolder ( View itemView ) {
             super ( itemView );
-            mPhotoURL = ( ImageView ) itemView . findViewById ( R . id . imgWisata );
+            mPhotoURL = ( ImageView ) itemView . findViewById ( R . id . imgHome );
             tvNama = ( TextView ) itemView . findViewById ( R . id . tvNama );
             tvHarga = ( TextView ) itemView . findViewById ( R . id . tvHarga );
 
